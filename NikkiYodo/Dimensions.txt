@@ -1,0 +1,3 @@
+﻿Thumbnail resolution: 160 x 120 (or 100 maybe for certificates)
+Large image resolution: 640 x 480
+Maximum certificate name: 40

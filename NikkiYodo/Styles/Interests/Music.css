@@ -1,0 +1,28 @@
+﻿.MusicAlbums {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.MusicAlbumContainer {
+    text-align: center;
+    max-width: 240px;
+    margin-bottom: 25px;
+}
+
+.MusicAlbumContainer > img {
+    margin-bottom: 5px;
+}
+
+.MusicAlbumInfo {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+    display: inline-block;
+}
+
+.MusicAlbumTitle {
+    white-space: normal;
+}

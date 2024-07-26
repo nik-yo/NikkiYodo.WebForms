@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode title="Menu"  description="">
+      <siteMapNode url="" title="Experience"  description="">
+        <siteMapNode url="~/pages/experience/job" title="Job"/>
+        <siteMapNode url="~/pages/experience/technology" title="Technology"/>
+        <siteMapNode url="~/pages/experience/society" title="Society"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Achievements"  description="">
+        <siteMapNode url="~/pages/achievements/certificates" title="Certificates"></siteMapNode>
+        <siteMapNode url="~/pages/achievements/badges" title="Badges"></siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="" title="Interests">
+        <siteMapNode url="~/pages/interests/books" title="Books"/>
+        <siteMapNode url="~/pages/interests/earphones" title="Earphones"/>
+        <siteMapNode url="~/pages/interests/music" title="Music"/>
+        <siteMapNode url="~/pages/interests/quotes" title="Quotes"/>
+        <siteMapNode url="~/pages/interests/sketches" title="Sketches"/>
+        <siteMapNode url="~/pages/interests/stories" title="Stories"/>
+      </siteMapNode>
+      <siteMapNode url="" title="Projects">
+        <siteMapNode url="~/pages/projects/sumobot" title="Sumobot"/>
+        <siteMapNode url="~/pages/projects/usbmissilelauncher" title="USB Missile Launcher"/>
+        <siteMapNode url="~/pages/projects/nekobento" title="Neko Bento"/>
+        <siteMapNode url="~/pages/projects/testdonkey" title="Test Donkey"/>
+      </siteMapNode>
+      <siteMapNode url="~/pages/language" title="Languages">
+        <siteMapNode url="~/pages/languages/chinese" title="Chinese"/>
+        <siteMapNode url="~/pages/languages/english" title="English"/>
+        <siteMapNode url="~/pages/languages/hokkien" title="Hokkien"/>
+        <siteMapNode url="~/pages/languages/indonesian" title="Indonesian"/>
+        <siteMapNode url="~/pages/languages/japanese" title="Japanese"/>
+      </siteMapNode>
+      <!--<siteMapNode url="~/pages/stuffs" title="Stuffs"></siteMapNode>-->
+      <siteMapNode url="https://nikkiyodo.blogspot.com" title="Blog"></siteMapNode>      
+        <!--<siteMapNode url="" title="Travels">
+          <siteMapNode url="~/pages/travels/houston2018" title="Houston 2018"/>
+        </siteMapNode>-->
+    </siteMapNode>
+</siteMap>

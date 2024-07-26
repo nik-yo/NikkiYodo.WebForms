@@ -1,0 +1,13 @@
+﻿.SocietyCertificateContainer {
+    max-width: 640px;
+}
+
+.SocietyCertificateContainer > img {
+    border: 1px solid black;
+}
+
+a.SocietyCertificateTrigger {
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}

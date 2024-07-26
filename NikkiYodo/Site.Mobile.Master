@@ -1,0 +1,66 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.Mobile.master.cs" Inherits="NikkiYodo.Site_Mobile" %>
+<%@ Register Src="~/ViewSwitcher.ascx" TagPrefix="friendlyUrls" TagName="ViewSwitcher" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta name="viewport" content="width=device-width" />
+    <title><%: Page.Title %></title>
+
+    <asp:PlaceHolder runat="server">
+        <% #if !DEBUG %>
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=UA-164168099-1"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+
+                gtag('js', new Date());
+
+                gtag('config', 'UA-164168099-1');
+            </script>
+        <% #endif %>
+    </asp:PlaceHolder>
+
+    <link rel="shortcut icon" type="image/png" href="~/favicon.png"/>
+
+    <link href="Styles/Master.Mobile.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="cphHeadContent" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Path="~/Scripts/Master.Mobile.js" />
+            </Scripts>
+        </asp:ScriptManager>
+        <header id="hdrMasterHeader">
+            <h1>Nikki Yodo</h1>
+        </header>
+        <nav>
+            <asp:Menu ID="mnuMasterMenu" runat="server" DataSourceID="smdMasterSiteMapDataSource" 
+                Orientation="Horizontal" StaticEnableDefaultPopOutImage="False">
+                <StaticMenuItemStyle CssClass="StaticMenuItem" />
+                <DynamicMenuItemStyle CssClass="DynamicMenuItem" />
+                <DynamicMenuStyle CssClass="DynamicMenu" />
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="smdMasterSiteMapDataSource" runat="server" ShowStartingNode="true" />
+        </nav>
+        <section class="MainContent">
+            <header>
+                <h4><asp:ContentPlaceHolder ID="cphTopTitle" runat="server"></asp:ContentPlaceHolder></h4>
+                <h1><%: Page.Title %></h1>
+            </header>
+            <hr class="titleLine"/>
+            <div><asp:ContentPlaceHolder runat="server" ID="cphMainContent" /></div>
+        </section>
+        <friendlyUrls:ViewSwitcher runat="server" />
+        <footer>
+            &#169; <%= DateTime.Today.Year.ToString() %> - Nikki Yodo
+        </footer>
+    </form>
+    <asp:ContentPlaceHolder ID="cphFootContent" runat="server"></asp:ContentPlaceHolder>
+</body>
+</html>

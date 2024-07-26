@@ -1,0 +1,12 @@
+﻿figure {
+    text-align:center;
+}
+
+    figure > img {
+        max-width: 640px;
+        max-height: 480px;
+    }
+
+    figure > figcaption {
+        text-align: center;
+    }

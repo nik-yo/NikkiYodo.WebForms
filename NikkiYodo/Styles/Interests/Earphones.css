@@ -1,0 +1,30 @@
+﻿.Earphones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.EarphoneContainer {
+    margin: 10px;
+    width: 320px;
+    height: 300px;
+}
+
+    .EarphoneContainer > img {
+        opacity: 0.6;
+        outline: 1px solid black;
+        cursor: pointer;
+        transition: opacity 0.5s ease;
+        max-width: 320px;
+        max-height: 240px;
+    }
+
+        .EarphoneContainer > img:hover {
+            opacity: 1;
+        }
+
+.EarphoneInfo {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}

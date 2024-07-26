@@ -1,0 +1,14 @@
+﻿article > figure {
+    margin: 0 auto 10px auto;
+    max-width: 640px;
+    max-height: 480px;
+}
+
+figure > img {
+    border: 1px solid black;
+    width: 100%;
+}
+
+figure > figcaption {
+    text-align: center;
+}

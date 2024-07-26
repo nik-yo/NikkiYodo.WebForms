@@ -1,0 +1,17 @@
+﻿.JobContainer {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+    .JobContainer > .JobHeader > h3, .JobContainer > .JobHeader > h4 {
+        margin-bottom: 5px;
+    }
+
+.JobContainer > h4 {
+    font-weight: normal;
+    font-style: italic;
+}
+
+.JobHeader {
+    cursor: pointer;
+}

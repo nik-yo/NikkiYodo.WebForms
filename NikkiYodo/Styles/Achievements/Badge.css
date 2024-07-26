@@ -1,0 +1,20 @@
+﻿.Badges {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.BadgeContainer {
+    text-align: center;
+    max-width: 240px;
+    margin-bottom: 25px;
+}
+
+.BadgeInfo {
+    padding: 10px;
+    width: 220px;
+}
+
+.BadgeTitle {
+    white-space: normal;
+}

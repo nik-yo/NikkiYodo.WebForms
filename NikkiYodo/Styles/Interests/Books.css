@@ -1,0 +1,21 @@
+﻿.Books {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+}
+
+.BookContainer {
+    text-align: center;
+}
+
+.BookInfo {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    max-width: 240px;
+    display:inline-block;
+}
+
+.BookTitle {
+    white-space: normal;
+}

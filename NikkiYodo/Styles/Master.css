@@ -1,0 +1,106 @@
+﻿body {
+    background-color:whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    font-family: Arial;
+}
+
+h1, h2, h3, h4, h5, h6 {    
+    margin: 0;
+}
+
+header#hdrMasterHeader {
+    background: url('../Assets/header_background.png') no-repeat;
+    max-width: 960px;
+    height: 100px;
+    line-height: 100px;
+    margin-bottom: 5px;
+}
+
+header#hdrMasterHeader > h1 {
+    color: white;
+    margin-left: 20px;
+    display: inline;
+    font-weight: bold;
+}
+
+header > h1 {
+    font-weight: bold;
+}
+
+hr.titleLine {
+    background: url('../Assets/nav_background.png') no-repeat -20px 0;
+    height: 10px;
+}
+nav {
+    background: url('../Assets/nav_background.png') no-repeat;
+    height:30px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.MainContent {
+    padding: 20px;
+    min-height: 480px;
+    background-color: white;
+}
+    
+/* Menu */
+div#mnuMasterMenu a.static {
+    padding: 0 20px; /* override the initial style */
+}
+
+.StaticMenuItem, .DynamicMenuItem {
+    font-family:Arial;
+    font-weight:bold;
+    cursor: pointer;
+}
+
+.StaticMenuItem {
+    background-color: transparent;
+    text-transform: uppercase;
+    color: white;
+}
+
+li.dynamic {
+    background: url('../Assets/nav_background.png') no-repeat;
+}
+
+.DynamicMenu {
+    box-shadow: 4px 4px 3px 0.5px;
+}
+
+.DynamicMenuItem {    
+    color: white;
+    padding: 0 20px;
+    min-width: 120px;
+}
+
+    .StaticMenuItem:hover, .DynamicMenuItem:hover {
+        background-color: #c7d1d6;
+        color: #333;
+    }
+
+/* USER CONTROLS */
+.UCSearchContainer {
+    display: inline-block;
+    background-color: #333;
+    padding: 1px 5px 1px 1px;
+}
+.UCSearchBox {
+    width: 200px;
+    vertical-align: middle;
+}
+.UCSearchButton {    
+    vertical-align: middle;
+}
+
+/* MODAL POPUP */
+.ModalPopupBackground {
+    background-color: gray;
+    opacity: 0.6;
+}
+
+/* COMMON */
+.right { text-align: right; }

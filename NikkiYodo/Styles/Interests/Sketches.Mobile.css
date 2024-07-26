@@ -1,0 +1,16 @@
+﻿.Sketch {
+    margin: 20px 0;
+}
+
+.SketchContainer {    
+    max-width: 640px;
+    max-height: 480px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.SketchContainer > img {
+    display: block;
+    width: 100%;
+}

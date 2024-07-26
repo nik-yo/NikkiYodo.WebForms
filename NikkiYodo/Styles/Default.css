@@ -1,0 +1,14 @@
+﻿.MainContent {
+    background: url('../Assets/default.jpg') no-repeat center;
+}
+
+    .MainContent article {
+        background-color: rgba(255, 255, 255, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+.MainContent > header, .MainContent > hr {
+    display: none;
+}
+

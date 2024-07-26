@@ -1,0 +1,34 @@
+﻿.TechnologyContainer {
+    margin-bottom: 15px;
+}
+
+.TechnologyCategory {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+.TechnologyDetails {
+    padding: 10px;
+}
+
+.TechnologyList {
+    width: 100%;
+}
+
+    .TechnologyList td {
+        width: 300px;
+        padding: 5px;
+        vertical-align: top;
+    }
+
+.SearchContainer {
+    margin-bottom: 10px;
+}

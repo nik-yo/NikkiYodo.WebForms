@@ -1,0 +1,33 @@
+﻿select,label {
+    font-size: 1em;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    vertical-align: middle;
+    width: 100%;
+    max-width: 320px;
+}
+
+.Certificates {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.CertificateContainer {
+    margin: 10px;
+}
+
+.CertificateContainer > img {
+    max-width: 420px;
+    max-height: 315px;
+    outline: 1px solid black;
+}
+
+.FilterSection {
+    margin-bottom: 10px;
+}
